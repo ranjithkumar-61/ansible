@@ -1,0 +1,56 @@
+    <!-- Student object -->
+    <students>
+    <student>
+        <FirstName>Ramesh</FirstName>
+        <DOB>2002-01-01</DOB>
+        <Email>info@gmail.com</Email>
+    <!-- <Address>302 Vignahartha apartments </Address> --> 
+    <!-- <Address>
+        <FlatNumber>302</FlatNumber>
+        <Street>Airoli</Street>
+        <city>NaviMumbai</city>
+        </Address> -->
+        <Address>
+        <PerAddres>
+            <FlatNumber>302</FlatNumber>
+            <Street>Airoli</Street>
+            <city>NaviMumbai</city>
+        </PerAddres>
+        </Address>
+        <Address>
+            <CurrAddres>
+                <FlatNumber>302</FlatNumber>
+                <Street>Airoli</Street>
+                <city>NaviMumbai</city>
+            </CurrAddres>
+            </Address>
+    </student>
+
+
+    <student>
+        <FirstName>Suresh</FirstName>
+        <DOB>2002-01-01</DOB>
+        <Email>info@gmail.com</Email>
+    <!-- <Address>302 Vignahartha apartments </Address> --> 
+    <!-- <Address>
+        <FlatNumber>302</FlatNumber>
+        <Street>Airoli</Street>
+        <city>NaviMumbai</city>
+        </Address> -->
+        <Address>
+        <PerAddres>
+            <FlatNumber>302</FlatNumber>
+            <Street>Airoli</Street>
+            <city>NaviMumbai</city>
+        </PerAddres>
+        </Address>
+        <Address>
+            <CurrAddres>
+                <FlatNumber>302</FlatNumber>
+                <Street>Airoli</Street>
+                <city>NaviMumbai</city>
+            </CurrAddres>
+            </Address>
+    </student>
+    </students>
+

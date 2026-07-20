@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "firstName":"Ranjith Reddy",
+            "dob":"2002-01-01",
+
+            "addreess": [
+                {
+                    "type":"perm",
+                    "flatNumber":302, 
+                    "street":"Airoli",
+                    "city":"Navi Mumbai"                         
+                },      
+                {
+                    "type":"perm",
+                    "flatNumber":302, 
+                    "street":"Airoli",
+                    "city":"Navi Mumbai"                         
+                }     
+            ],
+            "skills": ["Devops","cloud","linux"]
+        },
+
+        {
+            "firstName":"Ranjith Kumar",
+            "dob":"2002-01-01",
+
+            "addreess": [
+                {
+                    "type":"perm",
+                    "flatNumber":302, 
+                    "street":"Airoli",
+                    "city":"Navi Mumbai"                         
+                },      
+                {
+                    "type":"perm",
+                    "flatNumber":302, 
+                    "street":"Airoli",
+                    "city":"Navi Mumbai"                         
+                }     
+            ],
+            "skills": ["Devops","python","linux"]
+        }
+
+    ]
+
+
+}
