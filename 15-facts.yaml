@@ -12,5 +12,5 @@
 
   - name: check debian or not
     ansible.builtin.debug:
-       msg: "Yes, package manager is debian
+       msg: "Yes, package manager is debian"
 
