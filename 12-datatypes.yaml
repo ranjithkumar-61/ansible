@@ -1,0 +1,25 @@
+- name: demo on datatypes
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "DevOps with AWS" #String
+    DURATION: 140 # int/number
+    IS_LIVE: true # bool
+    DETAILS:  # MAP/dICTIONARY {}
+      MONTHS: 4
+      TRAINER: "Reddy"
+    TOPICS: # list -/[]
+    - Linux
+    - Shell
+    - Ansible
+  tasks:
+  - name: print datatypes
+    ansible.builtin.debug:
+    msg: |
+      program: {{ PROGRAM }}
+      duration: {{ DURATION }}
+      IS LIVE: {{ IS_LIVE }}
+      Details: {{ DETAILS }}
+      Topics: {{ TOPICS }}
+      
+  
