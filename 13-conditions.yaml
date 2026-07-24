@@ -8,3 +8,6 @@
     ansible.builtin.debug:
       msg: "Yes, it is Live"
     when: IS_LIVE
+
+
+# If it is not truye it prints skipping: [localhost]
