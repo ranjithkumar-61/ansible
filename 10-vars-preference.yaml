@@ -5,10 +5,10 @@
     NAME: "ANSIBLE from PLAY"
   # vars_files:
   # - course.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: please enter name
-    private: false
+  # vars_prompt:
+  # - name: NAME
+  #   prompt: please enter name
+  #   private: false
   tasks:
   - name: print name
     # vars:
@@ -20,3 +20,6 @@
 
 # 1. Arguments
 # 2. Task
+# 3. vars_files
+# 4. Peompt
+# 5. 
