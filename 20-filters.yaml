@@ -3,10 +3,10 @@
   connection: local
   vars: #String
     topics: linux, shell, terraform, ansible'
-  tagslist: #map/dictionaries
-    name: ansible
-    project: roboshop
-    component: catalogue
+    tagslist: #map/dictionaries
+      name: ansible
+      project: roboshop
+      component: catalogue
   tasks:
   - name: greeting
     ansible.builtin.debug:
