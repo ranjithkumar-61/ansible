@@ -23,8 +23,8 @@
 
   # - name: convert map to list
   #   ansible.builtin.debug:
-  #     msg: "{{ tags | items }}" # [WARNING]: Found variable using reserved name: tags "by using this reserved keyword it throws this warning"
+  #     msg: "{{ tags |   dict2items }}" # [WARNING]: Found variable using reserved name: tags "by using this reserved keyword it throws this warning"
 
   - name: convert map to list
     ansible.builtin.debug:
-      msg: "{{ tagslist | items }}" 
+      msg: "{{ tagslist | dict2items }}" 
