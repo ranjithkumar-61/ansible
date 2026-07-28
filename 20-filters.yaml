@@ -3,10 +3,15 @@
   connection: local
   vars: #String
     topics: linux, shell, terraform, ansible'
-    tags: #map/dictionaries
+    # tags: #map/dictionaries 
+    #   name: ansible
+    #   project: roboshop
+    #   component: catalogue
+    tagslist:  #map/dictionaries 
       name: ansible
       project: roboshop
       component: catalogue
+
   tasks:
   - name: greeting
     ansible.builtin.debug:
@@ -16,7 +21,10 @@
     ansible.builtin.debug:
       msg: "{{ topics | split(',') }}"
 
+  # - name: convert map to list
+  #   ansible.builtin.debug:
+  #     msg: "{{ tags | items }}" # [WARNING]: Found variable using reserved name: tags "by using this reserved keyword it throws this warning"
+
   - name: convert map to list
     ansible.builtin.debug:
-      msg: "{{ tags | items }}"
-  
+      msg: "{{ tagslist | items }}" 
